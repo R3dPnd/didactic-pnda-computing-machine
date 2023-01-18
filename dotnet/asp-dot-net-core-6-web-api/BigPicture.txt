@@ -1,0 +1,9 @@
+------------------------------------------------------------------------------------------------
+ASP.NET Core can be used similarly to Spring for full Web application to Spring. It's built on
+top of DotNet, meaning you don't have to use C#, but you probably will. It's the defacto web 
+framework for DotNet developers. 
+
+When running the application, there is a similar format as Spring as well. A builder is used to
+create the app which includes the underlying code for running a web server. 
+
+------------------------------------------------------------------------------------------------
