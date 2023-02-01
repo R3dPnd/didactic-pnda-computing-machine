@@ -1,9 +1,47 @@
 ------------------------------------------------------------------------------------------------
+What is ASP.NETY Core and Why Use it?
+------------------------------------------------------------------------------------------------
 ASP.NET Core can be used similarly to Spring for full Web application to Spring. It's built on
 top of DotNet, meaning you don't have to use C#, but you probably will. It's the defacto web 
 framework for DotNet developers. 
 
 When running the application, there is a similar format as Spring as well. A builder is used to
-create the app which includes the underlying code for running a web server. 
+create the app which includes the underlying code for running a web server running on Kestrel. 
+You can also run another sapplicaion such as NGX or IIS. This gives some epanded server feature
+that Kestral lacks.
 
+You can inject dependencies through the proram cs page in the services obj of the builder obj.
+
+ASP.Net alows you to utilize Razor which is a tool that lets you run files similar to JSP files
+that are combinatrions of C# and html or other languages that Razor supports
+------------------------------------------------------------------------------------------------
+Understanding Server-rendering Frontend Applications
+------------------------------------------------------------------------------------------------
+ASP,NET core uses annotations to create restriction on objects and for ORM mapping. It aallows 
+for automatic conversions from SQL to code.
+
+Blazer is a client rendered tool, where as MVC and Razor alloed for server-rendered. This means 
+a Server does the heavy lifting. A browser siimply makes a reqquest for the server to process 
+and respond with a pure html and css page. The job of the browser becomes very simple while the 
+server processes all the data. A single page application like React or Angular has the processes
+all rendered and manipulated by the browser.
+
+Razor and MVC have different design paradigms,. In Razor, the Server maps requests to Razor 
+pages. The server renders the page and delivers the page to the browser. 
+------------------------------------------------------------------------------------------------
+MVC vs Razor
+------------------------------------------------------------------------------------------------
+
+Though both are uasble at the same time, here are some differences.
+MVC
+* More Complicated
+* Difficult Routing
+* Seperation allows for concurrent work
+
+Razor Pages
+* Not very reusable
+* Work is consoidated
+
+------------------------------------------------------------------------------------------------
+Client-rendered Frontend Applications
 ------------------------------------------------------------------------------------------------

@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CheckboxFunctionality from './quiz/Section2/CheckboxFunctionality';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CheckboxFunctionality />
   </React.StrictMode>
 );
 

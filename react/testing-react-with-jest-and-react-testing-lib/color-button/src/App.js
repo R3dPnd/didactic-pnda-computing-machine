@@ -17,13 +17,8 @@ function App() {
   return (
     <div className="App">
       <button style={style} onClick={swapColors}>{text}</button>
-      <input
-        type="checkbox"
-        id="enable-button-checkbox"
-        defaultChecked={disabled}
-        onChange={(e) => setdisabled(e.target.checked)}
-      />    
-      </div>
+      <input type="checkbox"/>
+    </div>
   );
 }
 
