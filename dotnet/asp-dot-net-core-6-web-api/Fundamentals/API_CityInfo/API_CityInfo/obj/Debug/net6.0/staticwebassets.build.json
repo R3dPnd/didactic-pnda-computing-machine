@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0wWJ/7XAcX+ZInj4/UgbIwsKd4ARVv/IYPBrvCkmgDk=",
+  "Source": "API_CityInfo",
+  "BasePath": "_content/API_CityInfo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

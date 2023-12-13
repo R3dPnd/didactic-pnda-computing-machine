@@ -1,1 +1,2 @@
-#Overview
+#MVC
+Model View controller is the basis behind many SP.NET Core apllications. It encourages loose coupling, seperation of concerns, testability and code reuse. It's not a full system and or archityechture. Models handle application data, typically in the form of pojos. The View is the application displaye to the user, and the controller handles the interaction between them. 
